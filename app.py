@@ -56,8 +56,8 @@ with st.sidebar:
     api_key = st.text_input("Enter your Gemini API Key:", type="password", placeholder="Paste Gemini API key")
     role_name = st.selectbox("Choose a role:", list(ROLES.keys()))
     st.info(ROLES[role_name]["hint"])
-    model = "gemini-2.5-flash"
-    st.caption("Model: gemini-3.8-flash (free tier where available)")
+    model = "gemini-3.8-flash"
+    st.caption("Model: Gemini 3.8 Flash (availability and pricing depend on account)")
 
 st.title("🎭 Role-based Creative Chatbot")
 st.write("Select a creative role and ask your question!")
