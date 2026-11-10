@@ -57,7 +57,7 @@ with st.sidebar:
     role_name = st.selectbox("Choose a role:", list(ROLES.keys()))
     st.info(ROLES[role_name]["hint"])
     model = "gemini-2.5-flash"
-    st.caption("Model: Gemini 2.5 Flash (free tier where available)")
+    st.caption("Model: gemini-3.8-flash (free tier where available)")
 
 st.title("🎭 Role-based Creative Chatbot")
 st.write("Select a creative role and ask your question!")
